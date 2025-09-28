@@ -55,5 +55,5 @@ app.post('/orders', (req, res) => {
 // In this case, it's running on port 3000.
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`Order service is running on http://localhost:${PORT}`);
+  console.log(`Order service is running on ${PORT}`);
 });
